@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html"> PIZZERÍA</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#presentation">Inicio</a></li>
+                    <li><a href="#about">Sobre nosostros</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#reservation">Reservas</a></li>
+    
+    
+                </ul>     
+            </nav>
+        </div>
+    </header>
+
+        <!--section.presentation#presentation SECCION -->
+        <section class="presentation" id="presentation">
+            <div class="presentatio-video">
+                <video src="./resources/video/pizza.mp4" autoplay="true" muted loop></video>
+            </div>
+            <div class="dark-overlay">
+                <div class="presentation-content">
+                    <h2>Vera pizza italiana hecha en Enpaña</h2>
+                    <p>
+                        Pizza napolitana tradicional hecha por perzonas que les gusta las tradiciones
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-continer left" id="about-img1"> 
+            <!-- CONTENEDOR IMAGEN -->
+                
+            </div>
+            <div class="about-continer right about-content">
+            <!-- CONTENEDOR IMAGEN -->
+                <h2 class="about-title">Nuestras Pizzas</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae totam ea neque minima,
+                     excepturi asperiores. Quam laboriosam voluptatibus minima magni, nemo vero. Rerum 
+                     perferendis consequuntur qui aspernatur totam voluptatem soluta.
+                </p>
+            </div>
+            <div class="about-continer right" id="about-img2">
+                <!-- contenedor imagen -->
+            </div>
+
+            <div class="about-continer left about-content">
+                <h2 class="about-title">Nuestra Historia</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla animi adipisci,
+                     optio inventore excepturi id ipsam saepe, esse laudantium cumque eligendi quos vitae.
+                      Explicabo ipsam laboriosam laborum nobis consectetur?
+                </p>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="dark-overlay">
+                <div class="menu-inner">
+                    <h2 class="title-articul"> Nuestra Carta</h2>
+                    <ul>
+                        <li>
+                            <div>Artículo</div>
+                            <div>Precio</div>
+                        </li>
+        
+                        <li>
+                            <div>Artículo</div>
+                            <div>Precio</div>
+                        </li>
+        
+                        <li>
+                            <div>Artículo</div>
+                            <div>Precio</div>
+                        </li>
+        
+                        <li>
+                            <div>Artículo</div>
+                            <div>Precio</div>
+                        </li>
+        
+                        <li>
+                            <div>Artículo</div>
+                            <div>Precio</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="reservation" id="reservation">
+            <h2>Formulario de Reserva</h2>
+            <form action="#"><!-- crear formulario y dentro de las comillas es para redireccionarlo-->
+                <div class="form-central">
+                    <div class="form-left">
+                        <label for="">Fecha</label>
+                        <input type="date" name="" id=""><!-- name y id se utilizan para recuper los datos cuando estos se envia al servidor -->
+                        
+                        <label for="">Nombre y apellido</label>
+                        <input type="text" name="" id="">
+        
+                        <label for="">Hora</label>
+                        <input type="time" name="" id="">
+
+                    </div>
+                    <div class="form-right">
+        
+                        <label for="">E-mail</label>
+                        <input type="email" name="" id="">
+        
+                        <label for="">Cantidad de personas</label>
+                        <input type="number" name="" id="">
+        
+                        <label for="">Movil</label>
+                        <input type="text" name="" id="">
+
+                    </div>
+                </div>
+            </form>        
+        </section>
+        <label class= "format-coment"for="">Comentarios</label>
+        <textarea name="" id="" cols="120" rows="4"></textarea>
+        <input type="submit" value="Reservar">
+
+        <footer>Pizzeria &copy;.  Todos los derechos Reservados</footer>
+
+</body>
+</html>
